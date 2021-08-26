@@ -1,33 +1,30 @@
-.App {
-  text-align: center;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-.logo {
-  animation: logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.aboutMe {
+  grid-column: 2 / 8;
+
+  background-color: var(--color-1);
 }
 
-.header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.languages {
+  grid-column: -8 / span 6;
+
+  background-color: var(--color-1);
 }
 
-.link {
-  color: #b318f0;
+spacer {
+  grid-column: 1 / -1;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.spacer1 {
+  min-height: 100px;
+  aspect-ratio: 2;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./assets/layered-steps-haikei.svg");
 }

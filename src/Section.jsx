@@ -1,9 +1,10 @@
 function Section(props) {
+
     return (
-        <section>
+        <section class={props.class}>
             {props.children}
         </section>
     )
 }
 
-export default Section
+export default Section;

@@ -1,13 +1,57 @@
+:root {
+    --background-color: #ffffff;
+    --color-1: #014179;
+    --color-2: #0262b6;
+    --color-3: #2196fd;
+    --color-4: #86c6fe;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+}
+
+header {
+    position: relative;
+    background-color: var(--color-1);
+    min-height: 200px;
+}
+
+section {
+    padding: 1rem;
+}
+
+.custom-shape-divider-bottom-1629951751 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629951751 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 63px;
+}
+
+.custom-shape-divider-bottom-1629951751 .shape-fill {
+    fill: #FFFFFF;
 }
