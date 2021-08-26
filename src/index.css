@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: var(--background-color);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -20,14 +21,26 @@ code {
     monospace;
 }
 
-p {
+p, ul {
     font-size: 1rem;
     color: white;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 header {
     position: relative;
     background-color: var(--color-1);
+    min-height: 200px;
+    color: white;
+}
+
+footer {
     min-height: 200px;
 }
 

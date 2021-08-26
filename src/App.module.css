@@ -19,12 +19,18 @@ spacer {
   grid-column: 1 / -1;
 }
 
+.spacer0 {
+  min-height: 200px;
+  width: 100%;
+}
+
 .spacer1 {
-  min-height: 100px;
-  aspect-ratio: 2;
+  min-height: 50px;
+  aspect-ratio: 10;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("./assets/layered-steps-haikei.svg");
+  background-image: url("./assets/wavesOpacity.svg");
 }
+
